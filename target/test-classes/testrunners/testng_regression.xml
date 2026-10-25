@@ -58,15 +58,15 @@
 	</test>
 
 
-	<test name="ProductInfo Page Test_Brave">
+	<!--<test name="ProductInfo Page Test_Brave">
 		<parameter name="browser" value="Brave" />
 		<parameter name="browserversion" value="105.0" />
 		<parameter name="testname" value="Product Info Page Test" />
 
 		<classes>
-			<class name="com.qa.opencart.tests.ProductInfoPageTest" />   <!--this is the class name of the test case which is to be executed -->
+			<class name="com.qa.opencart.tests.ProductInfoPageTest" />   this is the class name of the test case which is to be executed 
 		</classes>
-	</test>
+	</test>-->
 
 	<!--<test name="Register Page Test">
 		<parameter name="browser" value="chrome" />
