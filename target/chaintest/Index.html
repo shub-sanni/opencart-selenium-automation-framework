@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">Open Cart Test Automation</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 20s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2026-10-23 03:34:26 pm</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2026-10-23 03:34:47 pm</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 23s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2026-10-26 02:45:40 am</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2026-10-26 02:46:03 am</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -46,8 +46,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp1">0</span> Passed,
-                <span id="sf1">1</span> Failed,
+                <span id="sp1">1</span> Passed,
+                <span id="sf1">0</span> Failed,
                 <span id="ss1">0</span> Skipped
               </div>
             </div>
@@ -63,8 +63,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp2">0</span> Passed,
-                <span id="sf2">5</span> Failed,
+                <span id="sp2">4</span> Passed,
+                <span id="sf2">0</span> Failed,
                 <span id="ss2">0</span> Skipped
               </div>
             </div>
@@ -80,9 +80,9 @@
                   </div>
                 </div>
                 <div class="card-footer small">
-                  <span id="sp3">3</span> Passed,
-                  <span id="sf3">4</span> Failed,
-                  <span id="ss3">16</span> Skipped
+                  <span id="sp3">19</span> Passed,
+                  <span id="sf3">0</span> Failed,
+                  <span id="ss3">0</span> Skipped
                 </div>
               </div>
             </div>
@@ -108,1047 +108,356 @@
         </div>
       </div>
     </div>
-      <div class="test-container failed">
+      <div class="test-container passed">
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 failed">Opencart App Test Regression Suite</h6>
+              <h6 class="mb-3 testname fs-6 passed">Opencart App Test Regression Suite</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 18s</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 21s</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2026-10-23 03:34:28 pm</span>
+                  2026-10-26 02:45:41 am</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2026-10-23 03:34:46 pm</span>
+                  2026-10-26 02:46:03 am</span>
               </div>
               
             </div>
             <div class="col-8">
-                <div class="card mb-3 result failed">
+                <div class="card mb-3 result passed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
                       <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                          <i class="bi bi-check-circle-fill text-success"></i>
                         <span class="fs-6 ms-2">com.qa.opencart.tests.ProductInfoPageTest</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">230ms</span>
+                        <span class="badge text-dark bg-light">14s</span>
                       </div>
                     </div>
                     
   <div class="mt-3 border-top">
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productHeaderTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productHeaderTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">5ms</span>
+          <span class="badge text-dark bg-light">2s</span>
         </div>
       </div>
       <p class="desc">[macbook, MacBook Pro]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: MacBook Pro
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productHeaderTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productHeaderTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">1ms</span>
+          <span class="badge text-dark bg-light">1s</span>
         </div>
       </div>
       <p class="desc">[macbook, MacBook Air]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: MacBook Air
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productHeaderTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productHeaderTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">1ms</span>
+          <span class="badge text-dark bg-light">1s</span>
         </div>
       </div>
       <p class="desc">[imac, iMac]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: iMac
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productHeaderTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productHeaderTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">0ms</span>
+          <span class="badge text-dark bg-light">938ms</span>
         </div>
       </div>
       <p class="desc">[samsung, Samsung SyncMaster 941BW]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: Samsung SyncMaster 941BW
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productHeaderTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productHeaderTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">1ms</span>
+          <span class="badge text-dark bg-light">996ms</span>
         </div>
       </div>
       <p class="desc">[samsung, Samsung Galaxy Tab 10.1]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: Samsung Galaxy Tab 10.1
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productImageCountTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productImageCountTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">1ms</span>
+          <span class="badge text-dark bg-light">914ms</span>
         </div>
       </div>
       <p class="desc">[macbook, MacBook Pro, 4]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: MacBook Pro
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productImageCountTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productImageCountTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">0ms</span>
+          <span class="badge text-dark bg-light">875ms</span>
         </div>
       </div>
       <p class="desc">[macbook, MacBook Air, 4]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: MacBook Air
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productImageCountTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productImageCountTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">0ms</span>
+          <span class="badge text-dark bg-light">973ms</span>
         </div>
       </div>
       <p class="desc">[imac, iMac, 3]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: iMac
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productImageCountTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productImageCountTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">0ms</span>
+          <span class="badge text-dark bg-light">889ms</span>
         </div>
       </div>
       <p class="desc">[samsung, Samsung SyncMaster 941BW, 1]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: Samsung SyncMaster 941BW
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productImageCountTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productImageCountTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">0ms</span>
+          <span class="badge text-dark bg-light">977ms</span>
         </div>
       </div>
       <p class="desc">[samsung, Samsung Galaxy Tab 10.1, 7]</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: Samsung Galaxy Tab 10.1
+          </pre>
+        </div>
     </div>
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">productInfoTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">productInfoTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">0ms</span>
+          <span class="badge text-dark bg-light">1s</span>
         </div>
       </div>
       <p class="desc"></p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+locator : By.linkText: MacBook Pro
+          </pre>
+        </div>
     </div>
   </div>
 
                   </div>
                 </div>
-                <div class="card mb-3 result failed">
+                <div class="card mb-3 result passed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
                       <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                          <i class="bi bi-check-circle-fill text-success"></i>
                         <span class="fs-6 ms-2">com.qa.opencart.tests.SearchTest</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">61ms</span>
+                        <span class="badge text-dark bg-light">4s</span>
                       </div>
                     </div>
                     
   <div class="mt-3 border-top">
-    <div class="leaf skipped pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">searchTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">searchTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">3ms</span>
+          <span class="badge text-dark bg-light">1s</span>
         </div>
       </div>
       <p class="desc"></p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+locator : By.name: search
+locator : By.name: search
+locator : By.cssSelector: div#search button
+          </pre>
+        </div>
     </div>
   </div>
 
                   </div>
                 </div>
-                <div class="card mb-3 result failed">
+                <div class="card mb-3 result passed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
                       <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-                        <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
-                      </div>
-                      <div>
-                        <span class="badge text-dark bg-light">122ms</span>
-                      </div>
-                    </div>
-                    
-  <div class="mt-3 border-top">
-    <div class="leaf skipped pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">forgotPwdLinkExistTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">0ms</span>
-        </div>
-      </div>
-      <p class="desc">forgotPwdLinkExistTest</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
-    </div>
-    <div class="leaf skipped pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">loginPageTitleTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">0ms</span>
-        </div>
-      </div>
-      <p class="desc">checking login title</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
-    </div>
-    <div class="leaf skipped pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">loginPageURLTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">0ms</span>
-        </div>
-      </div>
-      <p class="desc">checking login page url</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
-    </div>
-    <div class="leaf skipped pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">doLoginTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">0ms</span>
-        </div>
-      </div>
-      <p class="desc">login with valid credentials</p>
-        <pre class="py-2 mt-2 mb-4">org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-	at org.openqa.selenium.edge.EdgeDriver.generateExecutor(EdgeDriver.java:71)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-	at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:75)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:61)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.openqa.selenium.WebDriverException: Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
-error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: driver.version: EdgeDriver
-	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:173)
-	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:254)
-	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102)
-	... 23 more
-</pre>
-    </div>
-  </div>
-
-                  </div>
-                </div>
-                <div class="card mb-3 result failed">
-                  <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                      <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                          <i class="bi bi-check-circle-fill text-success"></i>
                         <span class="fs-6 ms-2">com.qa.opencart.tests.AccountsPageTest</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">13s</span>
+                        <span class="badge text-dark bg-light">3s</span>
                       </div>
                     </div>
                     
   <div class="mt-3 border-top">
-    <div class="leaf failed pb-1 ">
+    <div class="leaf passed pb-1 ">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+            <i class="bi bi-check-circle-fill text-success"></i>
           <span class="fs-6 ms-2">accPageHeadersTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">670ms</span>
+          <span class="badge text-dark bg-light">1s</span>
         </div>
       </div>
       <p class="desc"></p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: lists don't have the same size expected [4] but found [0]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1465)
-	at org.testng.Assert.assertEquals(Assert.java:1441)
-	at com.qa.opencart.tests.AccountsPageTest.accPageHeadersTest(AccountsPageTest.java:56)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-</pre>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/a0962027-a8ac-4403-bfe6-b00f64ebeda9.png" />
-            </div>
-        </div>
     </div>
-    <div class="leaf failed pb-1 ">
+    <div class="leaf passed pb-1 ">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+            <i class="bi bi-check-circle-fill text-success"></i>
           <span class="fs-6 ms-2">accPageTitleTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">5s</span>
+          <span class="badge text-dark bg-light">32ms</span>
         </div>
       </div>
       <p class="desc"></p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: expected [My Account] but found [null]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.qa.opencart.tests.AccountsPageTest.accPageTitleTest(AccountsPageTest.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-</pre>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/6fa1abf8-3977-44f8-8ac8-43dccfbd5fbf.png" />
-            </div>
-        </div>
     </div>
-    <div class="leaf failed pb-1 ">
+    <div class="leaf passed pb-1 ">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+            <i class="bi bi-check-circle-fill text-success"></i>
           <span class="fs-6 ms-2">accPageURLTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">5s</span>
+          <span class="badge text-dark bg-light">179ms</span>
         </div>
       </div>
       <p class="desc"></p>
-        <pre class="py-2 mt-2 mb-4">java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.qa.opencart.pages.AccountsPage.getAccPageURL()" is null
-	at com.qa.opencart.tests.AccountsPageTest.accPageURLTest(AccountsPageTest.java:47)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-</pre>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/c258db2b-2d8c-4985-9a22-ed5c1bb01219.png" />
-            </div>
-        </div>
     </div>
   </div>
 
                   </div>
                 </div>
-                <div class="card mb-3 result failed">
+                <div class="card mb-3 result passed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
                       <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                          <i class="bi bi-check-circle-fill text-success"></i>
                         <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">8s</span>
+                        <span class="badge text-dark bg-light">3s</span>
                       </div>
                     </div>
                     
@@ -1160,7 +469,7 @@ Driver info: driver.version: EdgeDriver
           <span class="fs-6 ms-2">forgotPwdLinkExistTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">543ms</span>
+          <span class="badge text-dark bg-light">478ms</span>
         </div>
       </div>
       <p class="desc">forgotPwdLinkExistTest</p>
@@ -1177,7 +486,7 @@ locator : By.linkText: Forgotten Password
           <span class="fs-6 ms-2">loginPageTitleTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">64ms</span>
+          <span class="badge text-dark bg-light">144ms</span>
         </div>
       </div>
       <p class="desc">checking login title</p>
@@ -1194,62 +503,28 @@ checking login page title: Account Login
           <span class="fs-6 ms-2">loginPageURLTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">28ms</span>
+          <span class="badge text-dark bg-light">70ms</span>
         </div>
       </div>
       <p class="desc">checking login page url</p>
     </div>
-    <div class="leaf failed pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-          <span class="fs-6 ms-2">doLoginTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">doLoginTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">7s</span>
+          <span class="badge text-dark bg-light">2s</span>
         </div>
       </div>
       <p class="desc">login with valid credentials</p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: expected [My Account] but found [null]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.qa.opencart.tests.LoginPageTest.doLoginTest(LoginPageTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-</pre>
-        <div class="mt-3 logs ">
+        <div class="mt-3 logs d-none">
           <pre class="pb-0">
 locator : By.id: input-password
 locator : By.id: input-password
 locator : By.xpath: //input[@value='Login']
           </pre>
-        </div>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/6a56c6aa-3ec4-45a0-9b26-0b07e1bb6532.png" />
-            </div>
         </div>
     </div>
   </div>
@@ -1264,23 +539,23 @@ locator : By.xpath: //input[@value='Login']
   </div>
 
   <script>
-    const stats1Annotation = {'total': 1, 'passed': 0};
+    const stats1Annotation = {'total': 1, 'passed': 1};
     const stats1 = [
-      { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
-      { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
+      { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
+      { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
       { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
     ];
-      const stats2Annotation = {'total': 5, 'passed': 0};
+      const stats2Annotation = {'total': 4, 'passed': 4};
       const stats2 = [
-        { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 5, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 4, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
-      const stats3Annotation = {'total': 23, 'passed': 3};
+      const stats3Annotation = {'total': 19, 'passed': 19};
       const stats3 = [
-        { result: 'Passed', count: 3, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 4, bg: 'rgb(233,80,113)' },
-        { result: 'Skipped', count: 16, bg: 'rgb(13, 202, 240)' }
+        { result: 'Passed', count: 19, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
      
   </script>
@@ -1299,23 +574,23 @@ locator : By.xpath: //input[@value='Login']
               <tbody>
                   <tr>
                     <td>java.version</td>
-                    <td>24.0.1</td>
+                    <td>21.0.7</td>
                   </tr>
                   <tr>
                     <td>java.vm.name</td>
-                    <td>Java HotSpot(TM) 64-Bit Server VM</td>
+                    <td>OpenJDK 64-Bit Server VM</td>
                   </tr>
                   <tr>
                     <td>java.vm.vendor</td>
-                    <td>Oracle Corporation</td>
+                    <td>Eclipse Adoptium</td>
                   </tr>
                   <tr>
                     <td>java.class.version</td>
-                    <td>68.0</td>
+                    <td>65.0</td>
                   </tr>
                   <tr>
                     <td>java.runtime.name</td>
-                    <td>Java(TM) SE Runtime Environment</td>
+                    <td>OpenJDK Runtime Environment</td>
                   </tr>
                   <tr>
                     <td>os.name</td>

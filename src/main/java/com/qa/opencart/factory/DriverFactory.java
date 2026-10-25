@@ -66,13 +66,13 @@ public class DriverFactory {
 				tlDriver.set(new ChromeDriver(optionsManager.getChromeOptions()));
 			}
 			break;
-		case "brave":
+		case "edge":
 			if (Boolean.parseBoolean(prop.getProperty("remote"))) {
 				// run on remote/selenium grid server/aws/machine
-				initRemoteDriver("edge");
+				initRemoteDriver("brave");
 			} else {
 				// run it on local:
-				tlDriver.set(new EdgeDriver(optionsManager.getBraveOptions()));
+				tlDriver.set(new EdgeDriver(optionsManager.getEdgeOptions()));
 			}
 			break;
 		case "firefox":
@@ -123,7 +123,7 @@ public class DriverFactory {
 
 		case "brave":
 			try {
-				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), optionsManager.getBraveOptions()));
+				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), optionsManager.getEdgeOptions()));
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
@@ -158,8 +158,8 @@ public class DriverFactory {
 
 		try {
 			if (envName == null) {
-				// System.out.println("env is null, hence running the tests on QA env by
-				// default...");
+				// System.out.println("env is null, hence running the tests on QA env by default...");
+				
 				log.warn("env is null, hence running the tests on QA env by default...");
 				ip = new FileInputStream("./src/test/resources/config/config.properties");
 			} else {
@@ -167,7 +167,7 @@ public class DriverFactory {
 				log.info("Running tests on env: " + envName);
 				switch (envName.toLowerCase().trim()) {
 				case "qa":
-					ip = new FileInputStream("./src/test/resources/config/config.properties");
+					ip = new FileInputStream("./src/test/resources/config/qa.config.properties");
 					break;
 				case "dev":
 					ip = new FileInputStream("./src/test/resources/config/dev.config.properties");

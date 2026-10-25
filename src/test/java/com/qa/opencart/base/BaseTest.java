@@ -57,7 +57,9 @@ public class BaseTest {
 	    if (testname != null && !testname.isEmpty()) {
 	        prop.setProperty("testname", testname);
 	    }
-
+	    System.out.println("Browser received from TestNG: " + browserName);
+	    System.out.println("Browser passed to DriverFactory: "
+	            + prop.getProperty("browser"));
 		driver = df.initDriver(prop);//login page		//call by reference
 		loginPage = new LoginPage(driver);
 	}

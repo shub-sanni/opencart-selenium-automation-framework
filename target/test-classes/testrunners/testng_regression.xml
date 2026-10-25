@@ -18,7 +18,7 @@
 
 	<test name="Login Page Test_chrome">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="126.0" />
+		<!--<parameter name="browserversion" value="126.0" />-->
 		<parameter name="testname" value="Login Page Test" />
 
 		<classes>
@@ -26,20 +26,20 @@
 		</classes>
 	</test>
 
-	<test name="Login Page Test_Brave">			<!--name cannot be same for two tests, so give different name for the test -->
-		<parameter name="browser" value="Brave" />
+	<!--<test name="Login Page Test_Brave">			name cannot be same for two tests, so give different name for the test 
+		<parameter name="browser" value="edge" />
 		<parameter name="browserversion" value="125.0" />
 		<parameter name="testname" value="Login Page Test" />
 
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
-	</test>
+	</test>-->
 
 
 	<test name="Accounts Page Test_chrome">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="123.0" />
+	<!--	<parameter name="browserversion" value="123.0" />-->
 		<parameter name="testname" value="Accounts Page Test" />
 
 		<classes>
@@ -47,9 +47,9 @@
 		</classes>
 	</test>
 
-	<test name="Search Test_Brave">
-		<parameter name="browser" value="Brave" />
-		<parameter name="browserversion" value="124.0" />
+	<test name="Search Test_chrome">
+		<parameter name="browser" value="chrome" />
+	<!--	<parameter name="browserversion" value="124.0" />-->
 		<parameter name="testname" value="Search Page Test" />
 
 		<classes>
@@ -58,9 +58,9 @@
 	</test>
 
 
-<test name="ProductInfo Page Test_Brave">
-		<parameter name="browser" value="Brave" />
-		<parameter name="browserversion" value="105.0" />
+<test name="ProductInfo Page Test_chrome">
+		<parameter name="browser" value="chrome" />
+		<!--<parameter name="browserversion" value="105.0" />-->
 		<parameter name="testname" value="Product Info Page Test" />
 
 		<classes>

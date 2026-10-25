@@ -64,7 +64,7 @@ public class OptionsManager {
 		return fo;
 	}
 
-	public EdgeOptions getBraveOptions() {
+	public EdgeOptions getEdgeOptions() {
 		EdgeOptions eo = new EdgeOptions();
 		if (Boolean.parseBoolean(prop.getProperty("headless"))) {
 			System.out.println("---Running in headless mode----");
