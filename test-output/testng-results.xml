@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-23T14:08:19 IST" name="Failed suite [Opencart App Test Regression Suite]" finished-at="2026-10-23T14:08:54 IST" duration-ms="34945">
+    <groups>
+    </groups>
+    <test started-at="2026-10-23T14:08:19 IST" name="product_info_chrome(failed)" finished-at="2026-10-23T14:08:54 IST" duration-ms="34945">
+      <class name="com.qa.opencart.tests.ProductInfoPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@5403799b]" started-at="2026-10-23T14:08:20 IST" name="setup" finished-at="2026-10-23T14:08:29 IST" duration-ms="9624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[product_info_chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="productInfoSetup()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@5403799b]" started-at="2026-10-23T14:08:29 IST" name="productInfoSetup" finished-at="2026-10-23T14:08:32 IST" duration-ms="2532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoSetup -->
+        <test-method signature="productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@5403799b]" started-at="2026-10-23T14:08:32 IST" name="productHeaderTest" data-provider="getProductTestData" finished-at="2026-10-23T14:08:53 IST" duration-ms="21411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productHeaderTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@5403799b]" started-at="2026-10-23T14:08:53 IST" name="attachScreenshot" finished-at="2026-10-23T14:08:53 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productHeaderTest status=SUCCESS method=ProductInfoPageTest.productHeaderTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@5403799b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@5403799b]" started-at="2026-10-23T14:08:54 IST" name="tearDown" finished-at="2026-10-23T14:08:54 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
+    </test> <!-- product_info_chrome(failed) -->
+  </suite> <!-- Failed suite [Opencart App Test Regression Suite] -->
+</testng-results>

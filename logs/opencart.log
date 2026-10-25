@@ -1,0 +1,30 @@
+2026-10-23 15:34:25 DEBUG TestNG:82 - suiteXmlPath: "D:\02 MCA\NaveenTDD\POM_Framework_Code_TDD\src\test\resources\testrunners\testng_regression.xml"
+2026-10-23 15:34:27 DEBUG ChainPluginService:122 - Found configuration entry chaintest.generator.email.enabled, will use chaintest.generator.email.class-name to resolve class
+2026-10-23 15:34:27 DEBUG ChainPluginService:122 - Found configuration entry chaintest.generator.simple.enabled, will use chaintest.generator.simple.class-name to resolve class
+2026-10-23 15:34:27 DEBUG FileGenerator:73 - Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestEmailGenerator with basePackagePath email/
+2026-10-23 15:34:27 DEBUG FileGenerator:73 - Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestSimpleGenerator with basePackagePath simple
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=chrome, incognito=false, testname=Accounts Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=Brave, incognito=false, testname=Product Info Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : chrome
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : Brave
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=Brave, incognito=false, testname=Search Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : Brave
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=Brave, incognito=false, testname=Login Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=chrome, incognito=false, testname=Login Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : Brave
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : chrome
+2026-10-23 15:34:35 INFO  AccountsPage:60 - Acc page headers: []
+2026-10-23 15:34:35 INFO  BaseTest:72 - ---screenshot is taken---
+2026-10-23 15:34:40 INFO  AccountsPage:41 - home page title: null
+2026-10-23 15:34:40 INFO  AccountsPage:41 - home page title: null
+2026-10-23 15:34:40 INFO  BaseTest:72 - ---screenshot is taken---
+2026-10-23 15:34:41 INFO  BaseTest:72 - ---screenshot is taken---
+2026-10-23 15:34:41 INFO  BaseTest:86 - ----closing the browser----
+2026-10-23 15:34:46 INFO  AccountsPage:48 - home page url: null
+2026-10-23 15:34:46 INFO  BaseTest:72 - ---screenshot is taken---
+2026-10-23 15:34:46 INFO  BaseTest:86 - ----closing the browser----

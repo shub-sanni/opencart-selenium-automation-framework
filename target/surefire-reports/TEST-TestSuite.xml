@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.406" tests="47" errors="0" skipped="37" failures="7">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\apache-maven-3.9.10\boot\plexus-classworlds-2.9.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\apache-maven-3.9.10/conf"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Denv=uat"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\apache-maven-3.9.10"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9-30"/>
+    <property name="user.name" value="hp"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="D:\02 MCA\NaveenTDD\POM_Framework_Code_TDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\02 MCA\NaveenTDD\POM_Framework_Code_TDD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="uat"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Windows\SysWow64\;C:\Program Files\dotnet\;C:\Program Files (x86)\Common Files\DivX11 Shared\DesktopService;C:\msys64\ucrt64\bin;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Shell 8.0\lib\Python3.12\Lib\site-packages\pip\_vendor\rich;C:\Program Files\Java\jdk-24\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\Downloads\china tab ok flash tool and ok driver allwinrar a33 a23 an other\PhoenixSuit_V1.10\;C:\msys64\ucrt64\bin;C:\MinGW\bin;C:\Users\hp\AppData\Local\Programs\Ollama;C:\apache-maven-3.9.10\bin;c:\users\hp\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\Scripts;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24.0.1+9-30"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.9.10\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.9.10\lib\jansi-native"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="setup" classname="com.qa.opencart.tests.SearchTest" time="4.963">
+    <failure message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: driver.version: EdgeDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: driver.version: EdgeDriver
+</failure>
+    <system-out><![CDATA[2026-10-23 15:34:25 DEBUG TestNG:82 - suiteXmlPath: "D:\02 MCA\NaveenTDD\POM_Framework_Code_TDD\src\test\resources\testrunners\testng_regression.xml"
+2026-10-23 15:34:27 DEBUG ChainPluginService:122 - Found configuration entry chaintest.generator.email.enabled, will use chaintest.generator.email.class-name to resolve class
+2026-10-23 15:34:27 DEBUG ChainPluginService:122 - Found configuration entry chaintest.generator.simple.enabled, will use chaintest.generator.simple.class-name to resolve class
+2026-10-23 15:34:27 DEBUG FileGenerator:73 - Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestEmailGenerator with basePackagePath email/
+2026-10-23 15:34:27 DEBUG FileGenerator:73 - Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestSimpleGenerator with basePackagePath simple
+...
+... TestNG 7.7.0 by Cédric Beust (cedric@beust.com)
+...
+
+I am in onStart method ProductInfo Page Test_Brave
+I am in onStart method Search Test_Brave
+I am in onStart method Accounts Page Test_chrome
+Running tests on env: uat
+Running tests on env: uat
+Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=chrome, incognito=false, testname=Accounts Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=Brave, incognito=false, testname=Product Info Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : chrome
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : Brave
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=Brave, incognito=false, testname=Search Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : Brave
+I am in onStart method Login Page Test_chrome
+I am in onStart method Login Page Test_Brave
+Running tests on env: uat
+Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:167 - Running tests on env: uat
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=Brave, incognito=false, testname=Login Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:49 - properties: {headless=false, highlight=true, password=Ravi@123, browser=chrome, incognito=false, testname=Login Page Test, url=https://naveenautomationlabs.com/opencart/index.php?route=account/login, username=Ravi678@gmail.com}
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : Brave
+2026-10-23 15:34:28 INFO  DriverFactory:53 - browser name : chrome
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+Oct 23, 2026 3:34:28 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+Oct 23, 2026 3:34:28 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+Oct 23, 2026 3:34:28 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.qa.opencart.tests.LoginPageTest" time="4.964">
+    <failure message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: driver.version: EdgeDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: driver.version: EdgeDriver
+</failure>
+  </testcase>
+  <testcase name="setup" classname="com.qa.opencart.tests.ProductInfoPageTest" time="4.965">
+    <failure message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver" type="org.openqa.selenium.remote.NoSuchDriverException">org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: driver.version: EdgeDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]
+error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: driver.version: EdgeDriver
+</failure>
+  </testcase>
+  <testcase name="searchSetup" classname="com.qa.opencart.tests.SearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="productInfoSetup" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productHeaderTest start
+I am in onTestStart method searchTest start
+I am in onTestSkipped method searchTest skipped
+I am in onTestStart method forgotPwdLinkExistTest start
+I am in onTestSkipped method forgotPwdLinkExistTest skipped
+I am in onTestSkipped method productHeaderTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onFinish method Search Test_Brave
+]]></system-out>
+  </testcase>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestSkipped method productHeaderTest skipped
+I am in onTestStart method loginPageURLTest start
+I am in onTestSkipped method loginPageURLTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productHeaderTest start
+I am in onTestSkipped method productHeaderTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="productHeaderTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+  </testcase>
+  <testcase name="searchTest" classname="com.qa.opencart.tests.SearchTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+  </testcase>
+  <testcase name="forgotPwdLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+  </testcase>
+  <testcase name="forgotPwdLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.575"/>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestStart method loginPageTitleTest start
+I am in onTestSkipped method loginPageTitleTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onFinish method Login Page Test_Brave
+]]></system-out>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.SearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestStart method productHeaderTest start
+]]></system-out>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="attachScreenshot" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.opencart.tests.SearchTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestStart method productHeaderTest start
+I am in onTestSkipped method productHeaderTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.072"/>
+  <testcase name="loginPageURLTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+  </testcase>
+  <testcase name="loginPageURLTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.034"/>
+  <testcase name="doLoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productHeaderTest start
+I am in onTestSkipped method productHeaderTest skipped
+I am in onTestStart method doLoginTest start
+I am in onTestSkipped method doLoginTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="doLoginTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.042">
+    <failure message="expected [My Account] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [My Account] but found [null]
+	at com.qa.opencart.tests.LoginPageTest.doLoginTest(LoginPageTest.java:57)
+</failure>
+    <system-out><![CDATA[2026-10-23 15:34:40 INFO  BaseTest:72 - ---screenshot is taken---
+I am in onTestStart method accPageURLTest start
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="productImageCountTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productImageCountTest start
+I am in onTestSkipped method productImageCountTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="productImageCountTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productImageCountTest start
+I am in onTestSkipped method productImageCountTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="productImageCountTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productImageCountTest start
+I am in onTestSkipped method productImageCountTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="productImageCountTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productImageCountTest start
+I am in onTestSkipped method productImageCountTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="productImageCountTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productImageCountTest start
+I am in onTestSkipped method productImageCountTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="productInfoTest" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped message="Unable to obtain: msedgedriver, error Command failed with code: 65, executed: [--browser, MicrosoftEdge, --language-binding, java, --output, json]&#10;error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_155_WINDOWS)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: driver.version: EdgeDriver"/>
+    <system-out><![CDATA[I am in onTestStart method productInfoTest start
+I am in onTestSkipped method productInfoTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.qa.opencart.tests.ProductInfoPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="accPageHeadersTest" classname="com.qa.opencart.tests.AccountsPageTest" time="0.679">
+    <failure message="lists don&apos;t have the same size expected [4] but found [0]" type="java.lang.AssertionError">java.lang.AssertionError: lists don't have the same size expected [4] but found [0]
+	at com.qa.opencart.tests.AccountsPageTest.accPageHeadersTest(AccountsPageTest.java:56)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method doLoginTest start
+user credentials: Ravi678@gmail.com:Ravi@123
+I am in onTestStart method accPageHeadersTest start
+2026-10-23 15:34:35 INFO  AccountsPage:60 - Acc page headers: []
+I am in onTestFailure method accPageHeadersTest failed
+Screenshot captured for test case:accPageHeadersTest
+]]></system-out>
+  </testcase>
+  <testcase name="accPageTitleTest" classname="com.qa.opencart.tests.AccountsPageTest" time="5.269">
+    <failure message="expected [My Account] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [My Account] but found [null]
+	at com.qa.opencart.tests.AccountsPageTest.accPageTitleTest(AccountsPageTest.java:39)
+</failure>
+    <system-out><![CDATA[2026-10-23 15:34:35 INFO  BaseTest:72 - ---screenshot is taken---
+I am in onTestStart method accPageTitleTest start
+2026-10-23 15:34:40 INFO  AccountsPage:41 - home page title: null
+I am in onTestFailure method accPageTitleTest failed
+Screenshot captured for test case:accPageTitleTest
+2026-10-23 15:34:40 INFO  AccountsPage:41 - home page title: null
+I am in onTestFailure method doLoginTest failed
+Screenshot captured for test case:doLoginTest
+]]></system-out>
+  </testcase>
+  <testcase name="accPageURLTest" classname="com.qa.opencart.tests.AccountsPageTest" time="5.303">
+    <failure message="Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because the return value of &quot;com.qa.opencart.pages.AccountsPage.getAccPageURL()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "com.qa.opencart.pages.AccountsPage.getAccPageURL()" is null
+	at com.qa.opencart.tests.AccountsPageTest.accPageURLTest(AccountsPageTest.java:47)
+</failure>
+    <system-out><![CDATA[2026-10-23 15:34:41 INFO  BaseTest:72 - ---screenshot is taken---
+2026-10-23 15:34:41 INFO  BaseTest:86 - ----closing the browser----
+I am in onFinish method Login Page Test_chrome
+2026-10-23 15:34:46 INFO  AccountsPage:48 - home page url: null
+I am in onTestFailure method accPageURLTest failed
+Screenshot captured for test case:accPageURLTest
+]]></system-out>
+  </testcase>
+</testsuite>
